@@ -1,5 +1,5 @@
-import { SignatureParameterDefaultValue } from '../../types/SignatureParameterDefaultValue'
-import { SignatureParameterInterface } from '../../interfaces/SignatureParser/SignatureParameters/SignatureParameterInterface'
+import { SignatureParameterDefaultValue } from '../types/SignatureParameterDefaultValue'
+import { SignatureParameterInterface } from '../interfaces/SignatureParameters/SignatureParameterInterface'
 
 export abstract class SignatureParameter implements SignatureParameterInterface {
   /**

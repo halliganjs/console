@@ -1,4 +1,4 @@
-import { SignatureOption } from '../../../../src/SignatureParser/SignatureParameters/SignatureOption'
+import { SignatureOption } from '../../../src/SignatureParameters/SignatureOption'
 
 describe('SignatureParser: SignatureParameters: SignatureOption: makeSignatureString()', function () {
   it('should return the option name preceded by dashes', function () {

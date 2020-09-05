@@ -1,4 +1,4 @@
-import { SignatureArgument } from '../../../../src/SignatureParser/SignatureParameters/SignatureArgument'
+import { SignatureArgument } from '../../../src/SignatureParameters/SignatureArgument'
 
 describe('SignatureParser: SignatureParameters: SignatureArgument: isOptional()', function () {
   it('should return false if not set', function () {

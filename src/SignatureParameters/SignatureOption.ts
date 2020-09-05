@@ -1,6 +1,6 @@
-import { SignatureOptionInterface } from '../../interfaces/SignatureParser/SignatureParameters/SignatureOptionInterface'
+import { SignatureOptionInterface } from '../interfaces/SignatureParameters/SignatureOptionInterface'
 import { SignatureParameter } from './SignatureParameter'
-import { SignatureParameterDefaultValue } from '../../types/SignatureParameterDefaultValue'
+import { SignatureParameterDefaultValue } from '../types/SignatureParameterDefaultValue'
 
 export class SignatureOption extends SignatureParameter implements SignatureOptionInterface {
   /**

@@ -1,4 +1,4 @@
-import { SignatureParameterDefaultValue } from '../../../types/SignatureParameterDefaultValue'
+import { SignatureParameterDefaultValue } from '../../types/SignatureParameterDefaultValue'
 import { SignatureParameterInterface } from './SignatureParameterInterface'
 
 export interface SignatureOptionInterface extends SignatureParameterInterface {

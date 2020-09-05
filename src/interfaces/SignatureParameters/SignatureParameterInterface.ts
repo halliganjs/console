@@ -1,4 +1,4 @@
-import { SignatureParameterDefaultValue } from '../../../types/SignatureParameterDefaultValue'
+import { SignatureParameterDefaultValue } from '../../types/SignatureParameterDefaultValue'
 
 export interface SignatureParameterInterface {
   /**
@@ -7,7 +7,7 @@ export interface SignatureParameterInterface {
    *
    * @return {string}
    */
-  abstract makeSignatureString (): string
+  makeSignatureString (): string
 
   /**
    * Retrieve the parameter's default value.

@@ -1,4 +1,4 @@
-import { SignatureParameter } from '../../../../src/SignatureParser/SignatureParameters/SignatureParameter'
+import { SignatureParameter } from '../../../src/SignatureParameters/SignatureParameter'
 
 class TestClass extends SignatureParameter {
   makeSignatureString (): string {

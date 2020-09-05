@@ -1,4 +1,4 @@
-import { SignatureOption } from '../../../../src/SignatureParser/SignatureParameters/SignatureOption'
+import { SignatureOption } from '../../../src/SignatureParameters/SignatureOption'
 
 describe('SignatureParser: SignatureParameters: SignatureOption: isBoolean()', function () {
   it('should return true if the option is boolean', function () {
