@@ -1,6 +1,6 @@
 import { SignatureArgument } from '../../../src/SignatureParameters/SignatureArgument'
 
-describe('SignatureParser: SignatureParameters: SignatureArgument: makeSignatureString()', function () {
+describe('SignatureParameters/SignatureArgument::makeSignatureString()', function () {
   describe('when argument is optional', function () {
     it('should wrap the command in brackets', function () {
       const signatureArgument = new SignatureArgument('test', null, true)

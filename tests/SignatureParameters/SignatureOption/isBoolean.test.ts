@@ -1,6 +1,6 @@
 import { SignatureOption } from '../../../src/SignatureParameters/SignatureOption'
 
-describe('SignatureParser: SignatureParameters: SignatureOption: isBoolean()', function () {
+describe('SignatureParameters/SignatureOption::isBoolean()', function () {
   it('should return true if the option is boolean', function () {
     const signatureOption = new SignatureOption('test')
 

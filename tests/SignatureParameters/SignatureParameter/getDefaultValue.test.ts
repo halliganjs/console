@@ -10,7 +10,7 @@ class TestClass extends SignatureParameter {
   }
 }
 
-describe('SignatureParser: SignatureParameters: SignatureParameter: getDefaultValue()', function () {
+describe('SignatureParameters/SignatureParameter::getDefaultValue()', function () {
   it('should return the default value', function () {
     const signatureParameter = new TestClass('default-val')
 

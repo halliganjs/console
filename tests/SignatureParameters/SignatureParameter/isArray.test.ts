@@ -10,7 +10,7 @@ class TestClass extends SignatureParameter {
   }
 }
 
-describe('SignatureParser: SignatureParameters: SignatureParameter: isArray()', function () {
+describe('SignatureParameters/SignatureParameter::isArray()', function () {
   it('should return true if the parameter is an array', function () {
     const signatureParameter = new TestClass(true)
 

@@ -10,7 +10,7 @@ class TestClass extends SignatureParameter {
   }
 }
 
-describe('SignatureParser: SignatureParameters: SignatureParameter: getDescription()', function () {
+describe('SignatureParameters/SignatureParameter::getDescription()', function () {
   it('should return the description', function () {
     const signatureParameter = new TestClass('description-val')
 
