@@ -8,14 +8,15 @@
 <!-- ![npm](https://img.shields.io/npm/v/@halliganjs/console) -->
 <!-- ![npm](https://img.shields.io/npm/dm/@halliganjs/console) -->
 <!-- ![npm bundle size](https://img.shields.io/bundlephobia/min/@halliganjs/console) -->
-![Maintenance](https://img.shields.io/maintenance/yes/2020)
+![Maintenance](https://img.shields.io/maintenance/yes/2021)
 
 The Console provides a simple, object-oriented interface for organizing and building a CLI application.
 
 Benefits:
 
 - Separate commands into individual, easily maintained classes
-- Simple configuration of command argument and options
+- Simple configuration of command arguments and options
 - Automatically parses argv
 - Provides an intuitive, standardized API for retrieving input
 - Provides an intuitive, standardized API for providing output
+- Fully extendable - replace any component with your own custom version
