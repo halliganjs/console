@@ -8,7 +8,7 @@
     "inlineSources": true,
     "inlineSourceMap": true,
     "declaration": true,
-    "outDir": "./lib",
+    "outDir": "./dist",
     "typeRoots": [ "./node_modules/@types" ],
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
@@ -17,14 +17,15 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "strict": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "."
   },
   "typeAcquisition": {
     "enable": true
   },
   "include": [ "./src/**/*" ],
   "exclude": [
-    "./lib",
+    "./dist",
     "./node_modules",
     "./tests"
   ]
