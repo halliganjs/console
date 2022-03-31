@@ -68,7 +68,10 @@ export class Application implements IApplication {
       command = this.listCommand
     }
 
-    console.log(command.getArguments())
+    const args = command.getArguments()
+    const options = command.getOptions()
+
+    console.log(args, options)
 
     // Create an input object
     const input = this.ioFactory.makeInput(parsedArgv)
